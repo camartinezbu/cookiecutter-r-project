@@ -1,4 +1,4 @@
-# cookiecutter-r-template
+# cookiecutter-r-project
 
 A template for R projects made using cookiecutter.
 

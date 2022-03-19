@@ -10,7 +10,7 @@ By: {{ cookiecutter.project_author_name }}
 
 *List access info & contact info for data sources used in the project*
 
-## Structure
+## Structure
 
 An outline of the basic project structure is available [here](https://github.com/camartinezbu/cookiecutter-r-project)
 

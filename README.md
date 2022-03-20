@@ -63,6 +63,24 @@ A template for R projects made using cookiecutter.
 - `{{cookiecutter.project_slug}}.Rproj`
   - This is the .Rproj file that can be used with RStudio to work within the project.
 
+
+## Requirements
+
+- [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/index.html)
+- [Cookiecutter Python package](https://cookiecutter.readthedocs.io/en/latest/installation.html)
+
+This can be installed using either
+
+```shell
+pip install cookiecutter
+```
+
+or
+
+```shell
+conda install -c conda-forge cookiecutter
+```
+
 ## Installation
 
 In the folder where you want to generate the project, run:

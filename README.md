@@ -10,15 +10,15 @@ A template for R projects made using cookiecutter.
     ├── .gitignore
     ├── README.md
     ├── analysis
-    │   └── notebooks
     ├── data
     │   ├── external
     │   ├── interim
     │   ├── processed
     │   └── raw
     ├── etl
-    ├── reports
+    ├── notebooks  
     ├── references
+    ├── reports
     ├── viz
     │   └── figures
     └── {{cookiecutter.project_slug}}.Rproj
@@ -35,8 +35,6 @@ A template for R projects made using cookiecutter.
 - `analysis`
   - R code that involves analysis on already-cleaned data. Code for cleaning data should go in `etl`.
   - Multiple analysis files are numbered sequentially.
-    - `analysis/notebooks`
-      - Any R Markdown files go here.
 - `data`
   - This is the directory used to store all of the project's data. All files should go into one of the following folders.
   - `data/external`
@@ -51,10 +49,12 @@ A template for R projects made using cookiecutter.
   - ETL (extract, transform, load) scripts for reading in source data, cleaning and standardizing it to prepare for analysis go here.
     - Multiple ETL files are numbered sequentially.
     - Joins are included in ETL process.
-- `reports`
-  - Generated analysis as HTML, PDF, LaTeX, etc.
+- `notebooks`
+  - Any R Markdown files go here.
 - `references`
   - Data dictionaries, manuals, and all other exploratory materials.
+- `reports`
+  - Generated analysis as HTML, PDF, LaTeX, etc.
 - `viz`
   - Graphics and visualization development specific work should go here.
     - Multiple viz files are numbered sequentially.
